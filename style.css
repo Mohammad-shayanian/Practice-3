@@ -1,0 +1,73 @@
+@font-face {
+                font-family: broya;
+                src: url(BRoya.ttf);
+            }
+            body{
+                font-family: broya;
+            }
+            button{
+                height:50px;
+				width:70px;
+				color:white;
+				border:5px;
+				margin-left:3%;
+				font-weight:bold;
+				font-size:18px;
+				background:#000;
+            }
+
+            button:hover{
+                background: #000
+            }
+
+            .table, th,td{
+                border-collapse: collapse;
+                text-align:center;
+                border:1px solid rgb(190, 189, 189);
+                margin:auto;
+            }
+
+            th,td{
+                padding-left:5px;
+                padding-right:5px;
+            }
+
+            caption{
+                color:#000;
+                font-size:25px;
+                margin-bottom:8px;
+                border:1px solid rgb(190, 189, 189);;
+                border-radius: 10px;
+            }
+
+            table.table tr:nth-child(odd) , table.table4 tr:nth-child(odd),table.shabihsazi tr:nth-child(odd) {
+                background: #F3F3F3;
+            }
+            table.table tr:nth-child(odd):hover , table.table4 tr:nth-child(odd):hover ,table.shabihsazi tr:nth-child(odd):hover  {
+                background:rgb(7, 0, 0);
+                color:white;
+            }
+
+            table.table tr:nth-child(even) , table.table4 tr:nth-child(even),table.shabihsazi tr:nth-child(even) {
+                background: rgb(224, 222, 222);
+            }
+                
+                
+            table.table tr:nth-child(even):hover , table.table4 tr:nth-child(even):hover ,table.shabihsazi tr:nth-child(even):hover  {
+                background:rgb(7, 0, 0);
+                color:white;
+            }
+
+            th{
+                background-color:black;
+                color:white;
+                font-size:18px;
+                border:1px white solid;
+                padding-top:5px;
+                padding-bottom:5px;
+            }
+            td{
+                font-size:20px;
+                padding-top:0px;
+                padding-bottom:0px;
+            }
